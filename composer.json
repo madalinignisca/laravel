@@ -9,12 +9,10 @@
         "guzzlehttp/guzzle": "^7.2",
         "fruitcake/laravel-cors": "dev-develop",
         "laravel/framework": "^10.0",
-        "laravel/sanctum": "dev-develop",
         "laravel/tinker": "dev-develop"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
-        "laravel/sail": "dev-develop",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",
@@ -51,12 +49,5 @@
         "laravel": {
             "dont-discover": []
         }
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
